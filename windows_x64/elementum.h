@@ -75,9 +75,9 @@ extern "C" {
 #endif
 
 extern __declspec(dllexport) void start();
-extern __declspec(dllexport) GoInt startWithLog(GoString log);
-extern __declspec(dllexport) GoInt startWithArgs(GoString args);
-extern __declspec(dllexport) GoInt startWithLogAndArgs(GoString log, GoString args);
+extern __declspec(dllexport) GoInt startWithLog(char* log);
+extern __declspec(dllexport) GoInt startWithArgs(char* args);
+extern __declspec(dllexport) GoInt startWithLogAndArgs(char* log, char* args);
 
 #ifdef __cplusplus
 }
