@@ -77,7 +77,7 @@ extern "C" {
 extern void start();
 extern GoInt startWithLog(char* log);
 extern GoInt startWithArgs(char* args);
-extern GoInt startWithLogAndArgs(char* log, char* args);
+extern GoInt startWithLogAndArgs(char* logPath, char* args);
 
 #ifdef __cplusplus
 }
